@@ -5,4 +5,19 @@ header {
 #banner {  
     height: 500px;
 } 
- 
+
+footer {
+	text-align: center;
+	background: #113355;
+	padding: 40px 0;
+}
+footer img {
+	width: 10%;
+	padding-top: 10px;
+}
+
+.copyrigth {
+	color: #FFEEDD;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
