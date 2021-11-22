@@ -6,14 +6,18 @@ header {
     position: relative;
     width: 1200px;
     margin: 0 auto;
-} 
 
+} 
+ 
+#banner {  
+    height: 400px;
+}  
+ 
 nav { 
     position: absolute ; 
     top: 170px; 
     right: 0;
-}
- 
+} 
 nav li { 
     display:inline; 
     margin: 0 0 0 18px;
