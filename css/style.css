@@ -1,12 +1,13 @@
 header { 
-    background: #3232CD;  
+    background: #23238E;  
 }   
  
 .caixa {  
     position: relative;
     width: 1200px;
     margin: 0 auto;
-}
+
+} 
  
 #banner {  
     height: 400px;
@@ -16,8 +17,7 @@ nav {
     position: absolute ; 
     top: 170px; 
     right: 0;
-}
- 
+} 
 nav li { 
     display:inline; 
     margin: 0 0 0 18px;
@@ -26,9 +26,59 @@ nav li {
 nav a { 
    text-transform: uppercase;  
    font-weight: bold; 
-   font: size 22px; 
+   font: size 32px; 
    text-decoration: none; 
    color: black;
+}  
+ 
+nav a:hover{ 
+    color: #C78C19; 
+    text-decoration: underline;
 }
  
+.banner{ 
+    height: 200px; 
+    margin: 0 0 0 18px; 
+    padding: 30px; 
+}  
  
+#secao-sobre { 
+    text-align: center; 
+}  
+ 
+.segundo-titulo {
+     font-size: 30px; 
+     font-weight: bold;  
+     padding: 30px; 
+} 
+ 
+.terceiro-titulo { 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 20px; 
+    text-decoration: none; 
+    color: black;
+}
+ 
+.texto { 
+    font-weight: bold;  
+    font-size: 22px;  
+    color: black;  
+    line-height: 22px; 
+    padding: 20px; 
+    
+}  
+ 
+.video { 
+    padding: 30px; 
+    margin-top: 20px;
+}
+
+.quarto-titulo { 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 20px; 
+    text-decoration: none; 
+    color: black;
+    
+}
